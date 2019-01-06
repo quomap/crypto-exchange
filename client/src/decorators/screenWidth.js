@@ -24,7 +24,4 @@ export default Component => class screenWidth extends React.Component {
         const isMobile = this.state.width <= 700;
         return <Component {...this.props} handleWindowSizeChange = {this.handleWindowSizeChange} isMobile = {isMobile}/>
     }
-
-
-
 }
